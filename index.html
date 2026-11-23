@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>InboxOS — one calm inbox for Gmail and Outlook</title>
+  <meta name="description" content="InboxOS is an email client that brings Gmail and Outlook into one inbox, with notes, tasks, reminders, snooze, scheduled send and team chat." />
+  <style>
+    :root { --bg: #1e2532; --pane: #202836; --text: #e8eef6; --muted: #a9b3c1; --accent: #5eb2b1; --border: #2a3441; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif; color: var(--text); background: var(--bg); }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 56px 24px 72px; }
+    .brand { display: flex; align-items: center; gap: 12px; font-size: 26px; font-weight: 700; letter-spacing: -0.02em; }
+    h1 { font-size: 38px; line-height: 1.15; letter-spacing: -0.02em; margin: 40px 0 14px; }
+    .lead { font-size: 18px; color: var(--muted); max-width: 640px; margin: 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin: 40px 0; }
+    .card { background: var(--pane); border: 1px solid var(--border); border-radius: 14px; padding: 18px 20px; }
+    .card h3 { margin: 0 0 6px; font-size: 16px; color: #fff; }
+    .card p { margin: 0; color: var(--muted); font-size: 14.5px; }
+    h2 { font-size: 22px; margin: 44px 0 10px; }
+    p, li { color: var(--muted); }
+    a { color: var(--accent); }
+    footer { border-top: 1px solid var(--border); margin-top: 56px; padding-top: 20px; font-size: 14px; color: var(--muted); display: flex; gap: 18px; flex-wrap: wrap; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="brand">
+      <svg width="34" height="30" viewBox="0 0 30 26" aria-hidden="true">
+        <path d="M5 11.2C5 6.6 9.5 2.5 15 2.5s10 4.1 10 8.7" fill="none" stroke="#8fd6dc" stroke-width="2.6" stroke-linecap="round"/>
+        <path d="M3.4 11h23.2c.9 0 1.6.7 1.6 1.6v8.2a3 3 0 0 1-3 3H4.8a3 3 0 0 1-3-3v-8.2c0-.9.7-1.6 1.6-1.6Z" fill="#4fb0bf"/>
+        <path d="M2.6 12.2 15 19.4l12.4-7.2" fill="none" stroke="#1d5866" stroke-opacity=".55" stroke-width="1.6" stroke-linejoin="round"/>
+      </svg>
+      InboxOS
+    </div>
+
+    <h1>One calm inbox for Gmail and Outlook</h1>
+    <p class="lead">
+      InboxOS is an email client that brings your Gmail and Outlook accounts into a single inbox. You can read, write and
+      organise email, and keep notes, tasks and reminders right next to it.
+    </p>
+
+    <div class="grid">
+      <div class="card"><h3>Unified inbox</h3><p>Read, search, label, archive and reply across all your connected accounts in one place.</p></div>
+      <div class="card"><h3>Snooze &amp; reminders</h3><p>Hide an email until you need it, or get reminded to follow up.</p></div>
+      <div class="card"><h3>Notes &amp; tasks</h3><p>Attach private notes and to-dos to any conversation.</p></div>
+      <div class="card"><h3>Schedule &amp; undo send</h3><p>Send later, or take a message back within a few seconds.</p></div>
+      <div class="card"><h3>Subscriptions</h3><p>See every newsletter you receive and unsubscribe in one click.</p></div>
+      <div class="card"><h3>Team chat</h3><p>Discuss emails with your workspace in channels and direct messages.</p></div>
+    </div>
+
+    <h2>How InboxOS uses your Google data</h2>
+    <p>
+      When you connect a Gmail account, InboxOS asks Google for permission to read, send and organise your email
+      (<code>gmail.modify</code>) and for your basic profile (name and email address). That access is used only to show your mailbox
+      and carry out the actions you take in the app. InboxOS does not sell your data, does not show ads, and does not use
+      your email to train AI models. You can disconnect at any time.
+    </p>
+    <p>Read the full <a href="privacy.html">Privacy Policy</a>.</p>
+
+    <footer>
+      <span>© 2026 InboxOS</span>
+      <a href="privacy.html">Privacy Policy</a>
+    </footer>
+  </main>
+</body>
+</html>
